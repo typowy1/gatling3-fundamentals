@@ -10,6 +10,7 @@ import scala.util.Random
 
 class VideoGameFullTest extends Simulation {
 
+  //adres lokalnej aplikacji trzeba dodać, pierw jąuruchom w inteliij
   val httpConf = http
     .baseUrl("http://localhost:8082/app/")
     .header("Accept", "application/json")
